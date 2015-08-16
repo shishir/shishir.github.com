@@ -1,0 +1,53 @@
+  .container {
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 0 50px;
+  }
+
+  nav, .content {
+    width: 95%;
+  }
+
+  nav {
+    height: 3em;
+    text-align: center;
+  }
+
+  .header{
+    font-size: 36px;
+    color: black;
+    border-bottom: 1px solid;
+  }
+
+  .header a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 30em;
+  }
+
+  .content-backdrop {
+    border: 1px solid;
+    height: 31em;
+  }
+
+  .box {
+    color: black;
+    font-size: 23px;
+    width: 23%;
+    min-height: 200px;
+    text-align: center;
+    margin: 4%;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 10px;
+  }
